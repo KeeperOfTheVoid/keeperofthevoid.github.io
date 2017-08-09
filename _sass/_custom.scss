@@ -1,0 +1,11 @@
+// prevent fixed navbar from overlapping content
+body {
+  padding-top: 75px;
+}
+
+.social {
+  font-size: floor(($font-size-base * 2.5));
+  .nav li a {
+    padding: 5px;
+  }
+}
